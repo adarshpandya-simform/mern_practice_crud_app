@@ -1,0 +1,15 @@
+{
+  "name": "mern_app",
+  "private": "true",
+  "author": "Adarsh Pandya",
+  "scripts": {
+    "start": "concurrently \"wsrun --parallel start\""
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^7.2.2",
+    "wsrun": "^5.2.4"
+  }
+}
